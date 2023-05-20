@@ -18,6 +18,6 @@ public class AuthController {
 
             return  ResponseEntity.ok("Success..!");
         }
-           return  ResponseEntity.ok("Not Success..!"); //
+           return  ResponseEntity.ok("Not Success..!");
     }
 }
