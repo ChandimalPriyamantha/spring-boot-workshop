@@ -11,7 +11,7 @@ import java.util.Objects;
 @Controller
 public class AuthController {
 
-    @RequestMapping(method =  RequestMethod.GET, path="/lang/{language}/login")
+    @RequestMapping(method =  RequestMethod.GET, path="/lang/{lanlogin")
     public ResponseEntity<String> doLogin(@PathVariable String language, @RequestBody LoginRequest loginData){
 
         if(Objects.equals(loginData.getEmail(), "okchandiuse@gmail.com") && Objects.equals(loginData.getPassword(), "1234")){
